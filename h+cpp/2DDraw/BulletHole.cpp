@@ -16,7 +16,7 @@ C_BulletHole::C_BulletHole(const D3DXVECTOR3 * Pos, const float * AngZ, const D3
 	D3DXMatrixRotationZ(&BulHol.Base.RotZ, D3DXToRadian(BulHol.Base.AngZ));
 	BulHol.Base.Mat = BulHol.Base.RotZ*BulHol.Base.Mat;
 }
-
+//
 C_BulletHole::C_BulletHole(const D3DXVECTOR3 * Pos, const float * AngZ, const D3DXVECTOR3 * ScalPos, int No)
 {
 	InitBulHol(No);
